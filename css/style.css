@@ -198,7 +198,7 @@ h5 {
     }
 }
 
-@media screen and (max-width: 860px), all and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 860px) {
     #content {
         width: 400px;
     }
