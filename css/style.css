@@ -164,13 +164,17 @@ h5 {
     float: left;
     height: 400px;
     max-width: 400px;
+    overflow: hidden;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
 .promo img {
-    margin: 25% 0;
     width: 400px;
+}
+
+.promo .malcom {
+    margin: 25% 0;
 }
 
 #details {
@@ -192,7 +196,7 @@ h5 {
     height: 200px;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1320px) {
     #content {
         width: 840px;
     }
