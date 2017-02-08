@@ -192,13 +192,13 @@ h5 {
     height: 200px;
 }
 
-@media only screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     #content {
         width: 840px;
     }
 }
 
-@media only screen and (max-width: 840px) {
+@media screen and (max-width: 860px), all and (-webkit-min-device-pixel-ratio: 2) {
     #content {
         width: 400px;
     }
