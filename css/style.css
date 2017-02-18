@@ -119,6 +119,10 @@ h5 {
     color: #000000;
 }
 
+.floatfix {
+    clear: left;
+}
+
 #content {
     max-width: 1260px;
     min-width: 420px;
@@ -128,6 +132,13 @@ h5 {
 
 .caption {
     padding: 20px;
+}
+
+.divider {
+    background: #3e98ba;
+    clear: left;
+    width: 100%;
+    min-height: 300px;
 }
 
 .fullitem {
