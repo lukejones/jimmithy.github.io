@@ -231,7 +231,7 @@ hr {
 
 @media screen and (max-width: 900px) {
     #headerCenter {
-        width: 400px;
+        width: 420px;
     }
     #content {
         width: 400px;
@@ -240,7 +240,7 @@ hr {
         width: 400px;
     }
     .social{ 
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
 }
