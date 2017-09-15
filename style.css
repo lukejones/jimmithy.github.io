@@ -55,7 +55,7 @@ a, p, h1, h2, h3, h4, h5 {
 }
 
 #headerCenter {
-    max-width: 860px;
+    max-width: 1280px;
     min-width: 400px;
     margin: 0 auto;   
 }
@@ -133,7 +133,7 @@ hr {
 }
 
 #content {
-    max-width: 860px;
+    max-width: 1280px;
     min-width: 420px;
     padding: 20px;
     margin: 0 auto;
@@ -147,7 +147,7 @@ hr {
 }
 
 .fullitem {
-    max-width: 840px;
+    max-width: 1260px;
     min-width: 400px;
     margin: 10px;   
 }
@@ -195,7 +195,7 @@ hr {
 
 .item {
     float: left;
-    width: 33%!important;
+    width: 400px;
     min-width: 400px;
     min-height: 320px;
     padding-left: 12px;
@@ -229,7 +229,22 @@ hr {
     fill:#fff;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1340px){
+    #headerCenter {
+        width: 860px;
+    }
+    #content {
+        width: 860px;
+    }
+    .promo {
+        width: 860px;
+    }
+    .social{ 
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 920px) {
     #headerCenter {
         width: 420px;
     }
@@ -242,5 +257,4 @@ hr {
     .social{ 
         margin-right: 20px;
     }
-
 }
