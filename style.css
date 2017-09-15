@@ -154,6 +154,7 @@ hr {
 }
 
 .fullitem #notice {
+    text-align: center;
     padding-bottom: 20px;
 }
 
@@ -166,12 +167,12 @@ hr {
 }
 
 .promo {
-    float: left;
+	float:left;
     height: 400px;
-    max-width: 400px;
-    overflow: hidden;
-    margin-right: 20px;
+    width: 400px;
     margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;
 }
 
 .promo img {
@@ -183,7 +184,9 @@ hr {
 }
 
 #details {
-    padding: 20px;
+	float:left;
+	display: inline-block;
+    max-width: 800px;
     min-height: 360px;
 }
 
@@ -237,8 +240,8 @@ hr {
     #content {
         width: 860px;
     }
-    .promo {
-        width: 860px;
+    #details {
+    	max-width: 400px;
     }
 }
 
@@ -247,9 +250,6 @@ hr {
         width: 400px;
     }
     #content {
-        width: 400px;
-    }
-    .promo {
         width: 400px;
     }
     .social{ 
